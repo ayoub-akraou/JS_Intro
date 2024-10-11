@@ -71,3 +71,11 @@ const anneeActuelle = 2024;
 const age_ = anneeActuelle - anneeNaissance;
 console.log("age: ", age_);
 console.log("****************************");
+
+// Exercice 9 : Calcul du périmètre d'un rectangle
+// Déclare deux variables longueur et largeur.
+// Calcule et affiche le périmètre du rectangle (P = 2 * (longueur + largeur)) dans la console.
+const longueur = 40,
+	largeur = 10;
+const périmètre = 2 * (longueur * largeur);
+console.log("périmètre: ", périmètre);
