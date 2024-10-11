@@ -79,3 +79,14 @@ const longueur = 40,
 	largeur = 10;
 const périmètre = 2 * (longueur * largeur);
 console.log("périmètre: ", périmètre);
+console.log("****************************");
+
+// Exercice 10 : Moyenne de trois nombres
+// Déclare trois variables note1, note2, et note3.
+// Calcule la moyenne des trois notes et affiche-la dans la console.
+const note1 = 18,
+	note2 = 12,
+	note3 = 16;
+const sum = note1 + note2 + note3;
+const moyenne = sum / 3;
+console.log("moyenne: ", moyenne);
