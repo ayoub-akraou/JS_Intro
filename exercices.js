@@ -21,3 +21,11 @@ const nom = "AKRAOU",
 	prenom_ = "Ayoub";
 const nomComplet = nom + " " + prenom_;
 console.log(nomComplet);
+
+// Exercice 4 : Utilisation des variables booléennes
+// Déclare une variable age et attribue-lui une valeur numérique.
+// Crée une variable majeur qui est true si l'âge est supérieur ou égal à 18, et false sinon.
+// Affiche la valeur de majeur dans la console.
+const age = 23;
+const majeur = age >= 18 ? true : false;
+console.log(majeur);
