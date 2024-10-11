@@ -46,3 +46,11 @@ console.log("x: " + x, "y: " + y);
 console.log("apres l'échange:");
 console.log("x: " + x, "y: " + y);
 console.log("****************************");
+
+// Exercice 6 : Calcul de la circonférence d'un cercle
+// Déclare une variable rayon et attribue-lui une valeur.
+// Utilise la formule de la circonférence d'un cercle (C = 2 * π * rayon) pour calculer la circonférence et l'afficher dans la console.
+const rayon = 20;
+const circonférence = 2 * Math.PI * rayon;
+console.log(circonférence);
+console.log("****************************");
