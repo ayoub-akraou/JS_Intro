@@ -13,3 +13,11 @@ console.log(`la somme de ${a} et ${b}: ${a + b}`);
 console.log(`la différence entre ${a} et ${b}: ${a - b}`);
 console.log(`le produit de ${a} * ${b}: ${a * b}`);
 console.log(`le quotient de ${a} / ${b}: ${a / b}`);
+
+// Exercice 3 : Concaténation de chaînes de caractères
+// Déclare deux variables nom et prenom. Crée une nouvelle variable nomComplet qui combine ces deux variables avec un espace entre elles.
+// Affiche nomComplet dans la console.
+const nom = "AKRAOU",
+	prenom_ = "Ayoub";
+const nomComplet = nom + " " + prenom_;
+console.log(nomComplet);
