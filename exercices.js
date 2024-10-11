@@ -54,3 +54,10 @@ const rayon = 20;
 const circonférence = 2 * Math.PI * rayon;
 console.log(circonférence);
 console.log("****************************");
+
+// Exercice 7 : Conversion de température
+// Déclare une variable celsius et attribue-lui une valeur.
+// Convertis cette valeur en Fahrenheit en utilisant la formule (F = C * 9/5 + 32) et affiche le résultat dans la console.
+const celsius = 50;
+const Fahrenheit = (celsius * 9) / 5 + 32;
+console.log(Fahrenheit);
