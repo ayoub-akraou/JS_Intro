@@ -61,3 +61,13 @@ console.log("****************************");
 const celsius = 50;
 const Fahrenheit = (celsius * 9) / 5 + 32;
 console.log(Fahrenheit);
+console.log("****************************");
+
+// Exercice 8 : Calcul de l'âge
+// Déclare une variable anneeNaissance et une variable anneeActuelle.
+// Calcule l'âge de la personne et affiche-le dans la console.
+const anneeNaissance = 2001;
+const anneeActuelle = 2024;
+const age_ = anneeActuelle - anneeNaissance;
+console.log("age: ", age_);
+console.log("****************************");
